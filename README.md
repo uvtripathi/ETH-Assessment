@@ -26,6 +26,7 @@ MyToken is a simple ERC20-like token contract implemented in Solidity. It allows
 ## Usage
 . Deploy the contract on a compatible Ethereum Virtual Machine (EVM) using a Solidity compiler. Or
 You run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+
 2. Interact with the contract through transactions:
    - Use the `mint` function to create tokens for specific addresses.
    - Use the `burn` function to destroy tokens from specific addresses.
