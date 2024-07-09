@@ -23,6 +23,34 @@ MyToken is a simple ERC20-like token contract implemented in Solidity. It allows
    - Decreases the balance of `_from` address by `_value`.
    - Includes conditionals to ensure the balance of `_from` is greater than or equal to `_value`.
 
+##code
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18;
+
+contract MyToken {
+
+    // Public variables
+    string public Token_name = "yuvi";
+    string public Token_Abbrv = "yu";
+    uint public totalSupply;
+
+    // Mapping of addresses to balances
+    mapping(address => uint) public balances;
+
+    // Mint function
+    function mint(address _to, uint _value) public {
+        totalSupply += _value;
+        balances[_to] += _value;
+    }
+
+    // Burn function
+    function burn(address _from, uint _value) public {
+        require(balances[_from] >= _value, "Insufficient balance");
+        totalSupply -= _value;
+        balances[_from] -= _value;
+    }
+}
+
 ## Usage
 . Deploy the contract on a compatible Ethereum Virtual Machine (EVM) using a Solidity compiler. Or
 You run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
