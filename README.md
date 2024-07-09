@@ -3,7 +3,7 @@
 ## Description
 MyToken is a simple ERC20-like token contract implemented in Solidity. It allows minting of tokens to addresses and burning of tokens from addresses, while maintaining balances and total supply.
 
-## code
+## contract code
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
