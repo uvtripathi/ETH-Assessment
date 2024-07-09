@@ -30,7 +30,7 @@ contract MyToken {
         balances[_from] -= _value;
     }
 }
-## Requirements
+## Contract details
 1. The contract has public variables that store details about the token:
    - `Token_name`: Name of the token (e.g., "yuvi").
    - `Token_Abbrv`: Abbreviation of the token (e.g., "yu").
