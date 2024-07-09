@@ -63,4 +63,4 @@ You run this program, you can use Remix, an online Solidity IDE. To get started,
 
 ## Authors
 
--uvtripathi  (tripathiyuvraj56@gmail.com)
+uvtripathi  (tripathiyuvraj56@gmail.com)
