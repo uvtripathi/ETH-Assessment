@@ -23,7 +23,7 @@ MyToken is a simple ERC20-like token contract implemented in Solidity. It allows
    - Decreases the balance of `_from` address by `_value`.
    - Includes conditionals to ensure the balance of `_from` is greater than or equal to `_value`.
 
-##code
+## code
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
